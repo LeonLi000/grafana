@@ -110,7 +110,14 @@ func (s *SimpleReducer) Reduce(series *tsdb.TimeSeries) null.Float {
 		}
 		// get other points
 		points = points[0:i]
-		for i := len(points) - 1; i >= 0; i-- {
+		// for i := len(points) - 1; i >= 0; i-- {
+		// 	if points[i][0].Valid {
+		// 		allNull = false
+		// 		value = first - points[i][0].Float64
+		// 		break
+		// 	}
+		// }
+		for i := 0; i < len(points)-1; i++ {
 			if points[i][0].Valid {
 				allNull = false
 				value = first - points[i][0].Float64
