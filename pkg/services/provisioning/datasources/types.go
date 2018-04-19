@@ -1,9 +1,9 @@
 package datasources
 
 import (
-	"github.com/grafana/grafana/pkg/models"
+	"github.com/LeonLi000/grafana/pkg/models"
 )
-import "github.com/grafana/grafana/pkg/components/simplejson"
+import "github.com/LeonLi000/grafana/pkg/components/simplejson"
 
 type ConfigVersion struct {
 	ApiVersion int64 `json:"apiVersion" yaml:"apiVersion"`

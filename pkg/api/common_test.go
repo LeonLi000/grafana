@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 
 	"github.com/go-macaron/session"
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/middleware"
-	m "github.com/grafana/grafana/pkg/models"
+	"github.com/LeonLi000/grafana/pkg/bus"
+	"github.com/LeonLi000/grafana/pkg/middleware"
+	m "github.com/LeonLi000/grafana/pkg/models"
 	"gopkg.in/macaron.v1"
 
 	. "github.com/smartystreets/goconvey/convey"

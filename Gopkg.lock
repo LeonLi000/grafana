@@ -175,7 +175,7 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/grafana/grafana_plugin_model"
+  name = "github.com/LeonLi000/grafana_plugin_model"
   packages = ["go/datasource"]
   revision = "dfe5dc0a6ce05825ba7fe2d0323d92e631bffa89"
 

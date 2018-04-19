@@ -1,10 +1,10 @@
 package api
 
 import (
-	"github.com/grafana/grafana/pkg/api/dtos"
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/components/apikeygen"
-	m "github.com/grafana/grafana/pkg/models"
+	"github.com/LeonLi000/grafana/pkg/api/dtos"
+	"github.com/LeonLi000/grafana/pkg/bus"
+	"github.com/LeonLi000/grafana/pkg/components/apikeygen"
+	m "github.com/LeonLi000/grafana/pkg/models"
 )
 
 func GetAPIKeys(c *m.ReqContext) Response {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/grafana/grafana/pkg/bus"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/LeonLi000/grafana/pkg/bus"
+	m "github.com/LeonLi000/grafana/pkg/models"
+	"github.com/LeonLi000/grafana/pkg/setting"
 	"gopkg.in/macaron.v1"
 )
 

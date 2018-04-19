@@ -7,8 +7,8 @@ import (
 
 	"github.com/go-xorm/core"
 	"github.com/go-xorm/xorm"
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	"github.com/grafana/grafana/pkg/models"
+	"github.com/LeonLi000/grafana/pkg/components/simplejson"
+	"github.com/LeonLi000/grafana/pkg/models"
 )
 
 // SqlEngine is a wrapper class around xorm for relational database data sources.

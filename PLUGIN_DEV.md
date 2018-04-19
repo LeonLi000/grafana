@@ -6,8 +6,8 @@ upgrading Grafana please check here before creating an issue.
 
 ## Links
 
-- [Datasource plugin written in typescript](https://github.com/grafana/typescript-template-datasource)
-- [Simple json dataource plugin](https://github.com/grafana/simple-json-datasource)
+- [Datasource plugin written in typescript](https://github.com/LeonLi000/typescript-template-datasource)
+- [Simple json dataource plugin](https://github.com/LeonLi000/simple-json-datasource)
 - [Plugin development guide](http://docs.grafana.org/plugins/developing/development/)
 - [Webpack Grafana plugin template project](https://github.com/CorpGlory/grafana-plugin-template-webpack)
 
@@ -18,7 +18,7 @@ for built-in plugins & everything internal. External plugins still use systemjs 
 set of Grafana components they can import. Plugins can depend on libs like lodash & moment and internal components 
 like before using the same import paths. However since everything in Grafana is no longer accessible, a few plugins could encounter issues when importing a Grafana dependency. 
 
-[List of exposed components plugins can import/require](https://github.com/grafana/grafana/blob/master/public/app/features/plugins/plugin_loader.ts#L48)
+[List of exposed components plugins can import/require](https://github.com/LeonLi000/grafana/blob/master/public/app/features/plugins/plugin_loader.ts#L48)
 
 If you think we missed exposing a crucial lib or Grafana component let us know by opening an issue.  
 

@@ -42,7 +42,7 @@ jobs:
   test-backend:
     docker:
       - image: circleci/golang:1.10
-    working_directory: /go/src/github.com/grafana/grafana
+    working_directory: /go/src/github.com/LeonLi000/grafana
     steps:
       - checkout
       - run:
@@ -52,7 +52,7 @@ jobs:
   build:
     docker:
      - image: grafana/build-container:v0.1
-    working_directory: /go/src/github.com/grafana/grafana
+    working_directory: /go/src/github.com/LeonLi000/grafana
     steps:
       - checkout
       - run:

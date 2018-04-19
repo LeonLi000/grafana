@@ -437,7 +437,7 @@ func rmr(paths ...string) {
 func clean() {
 	rmr("dist")
 	rmr("tmp")
-	rmr(filepath.Join(os.Getenv("GOPATH"), fmt.Sprintf("pkg/%s_%s/github.com/grafana", goos, goarch)))
+	rmr(filepath.Join(os.Getenv("GOPATH"), fmt.Sprintf("pkg/%s_%s/github.com/LeonLi000", goos, goarch)))
 }
 
 func setBuildEnv() {

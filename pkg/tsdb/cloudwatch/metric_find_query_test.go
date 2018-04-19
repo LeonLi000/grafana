@@ -9,8 +9,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/aws/aws-sdk-go/service/ec2/ec2iface"
 	"github.com/bmizerany/assert"
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	"github.com/grafana/grafana/pkg/tsdb"
+	"github.com/LeonLi000/grafana/pkg/components/simplejson"
+	"github.com/LeonLi000/grafana/pkg/tsdb"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

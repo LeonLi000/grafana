@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grafana/grafana/pkg/bus"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/LeonLi000/grafana/pkg/bus"
+	m "github.com/LeonLi000/grafana/pkg/models"
+	"github.com/LeonLi000/grafana/pkg/util"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

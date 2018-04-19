@@ -3,8 +3,8 @@ package opentsdb
 import (
 	"testing"
 
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	"github.com/grafana/grafana/pkg/tsdb"
+	"github.com/LeonLi000/grafana/pkg/components/simplejson"
+	"github.com/LeonLi000/grafana/pkg/tsdb"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

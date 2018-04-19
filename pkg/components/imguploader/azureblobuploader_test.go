@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/LeonLi000/grafana/pkg/setting"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

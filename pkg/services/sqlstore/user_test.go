@@ -6,7 +6,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	m "github.com/grafana/grafana/pkg/models"
+	m "github.com/LeonLi000/grafana/pkg/models"
 )
 
 func TestUserDataAccess(t *testing.T) {

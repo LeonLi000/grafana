@@ -1,7 +1,7 @@
 package login
 
 import (
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/LeonLi000/grafana/pkg/setting"
 )
 
 var loginUsingLdap = func(query *LoginUserQuery) (bool, error) {

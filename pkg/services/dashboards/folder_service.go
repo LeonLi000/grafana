@@ -1,10 +1,10 @@
 package dashboards
 
 import (
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/services/guardian"
-	"github.com/grafana/grafana/pkg/services/search"
+	"github.com/LeonLi000/grafana/pkg/bus"
+	"github.com/LeonLi000/grafana/pkg/models"
+	"github.com/LeonLi000/grafana/pkg/services/guardian"
+	"github.com/LeonLi000/grafana/pkg/services/search"
 )
 
 // FolderService service for operating on folders
